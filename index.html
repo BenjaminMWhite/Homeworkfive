@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Work Day Scheduler</title>
+  </head>
+
+  <body>
+    <header class="jumbotron">
+      <h1 class="display-3">Work Day Scheduler</h1>
+      <p class="lead">A simple calendar app for scheduling your work day</p>
+      <p id="currentDay" class="lead"></p>
+    </header>
+    <div class="container">
+      <!-- Timeblocks go here -->
+      <div id=9AMBox class="row time-block">
+        <p id=9AMTitle > 09 AM </p>
+        <textarea id=nineAMEvents></textarea>
+        <button class=saveBtn id=SaveNine></button>
+      </div>
+      <div id=10AMBox class="row time-block">
+        <p id=10AMTitle > 10 AM </p>
+        <textarea id=tenAMEvents></textarea>
+        <button class=saveBtn id=SaveTen></button>
+      </div>
+  
+      <div id=11AMBox class="row time-block">
+        <p id=11AMTitle > 11 AM </p>
+        <textarea id=elevenAMEvents></textarea>
+        <button class=saveBtn id=SaveEleven></button>
+      </div>
+
+      <div id=12AMBox class="row time-block">
+        <p id=12AMTitle > 12 PM </p>
+        <textarea id=twelveAMEvents></textarea>
+        <button class=saveBtn id=SaveTwelve></button>
+      </div>
+      <div id=1AMBox class="row time-block">
+        <p id=1AMTitle > 01 PM </p>
+        <textarea id=oneAMEvents></textarea>
+        <button class=saveBtn id=SaveOne></button>
+      </div>
+      <div id=2AMBox class="row time-block">
+        <p id=2AMTitle > 02 PM </p>
+        <textarea id=twoAMEvents></textarea>
+        <button class=saveBtn id=SaveTwo></button>
+      </div>
+    <div id=3AMBox class="row time-block">
+      <p id=3AMTitle > 03 PM </p>
+      <textarea id=threeAMEvents></textarea>
+      <button class=saveBtn id=SaveThree></button>
+    </div>
+    <div id=4AMBox class="row time-block">
+      <p id=4AMTitle > 04 PM </p>
+      <textarea id=fourAMEvents></textarea>
+      <button class=saveBtn id=SaveFour></button>
+    </div>
+    <div id=5AMBox class="row time-block">
+      <p id=5AMTitle > 05 PM </p>
+      <textarea id=fiveAMEvents></textarea>
+      <button class=saveBtn id=SaveFive></button>
+    </div>
+  </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="C:\Users\bwhit\Documents\university\OSU-VIRT-FSF-FT-01-2022-U-LOL\05-Third-Party-APIs\02-Portfolio-Piece\Assets\Js.js"></script>
+  
+  </body>
+</html>
